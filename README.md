@@ -7,7 +7,7 @@ This script will quickly run an iperf3 test on your client and with your OPNsesn
 
 ### Usage
 =====
-1. Modify the <username> and <ip address>, values of all the scripts to match the values for your environment.
+1. Modify the `username` and `ip address`, values of all the scripts to match the values for your environment.
    * (optional) Make an alias in your .bashrc or .zshrc to quickly call this script
 2. After modifying the values, you only need to run the `./opnsense_iperf3_runner.sh` script, it calls on the other 2 scripts.
 
