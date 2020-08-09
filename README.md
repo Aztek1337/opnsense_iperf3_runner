@@ -1,6 +1,6 @@
 # iperf3 run script for OPNsense
 
-This script will quickly run an iperf3 test on your client and with your OPNsesnse firewall. The results will be shown on your terminal.
+This script will quickly run an iperf3 test on your client and with your OPNsense firewall. The results will be shown on your terminal.
 
 * This script has only been tested with Linux, should theoretically work with MacOS.
 * If your on Windows, WSL should work.
@@ -15,15 +15,15 @@ This script will quickly run an iperf3 test on your client and with your OPNsesn
 
 ### Client
 ===========
-1.  iperf3 installed
-2. ssh key of the user installed on to the OPNsesne firewall.
+1.  iperf3 installed.
+2. ssh key of the user installed on to the OPNsense firewall.
   * This is installed per user under system>access>Username in the OPNsense GUI.
-    * This makes it easier and more secure access to the OPNsesne firewall.
+    * This makes it easier and more secure access to the OPNsense firewall.
 
 ### OPNsense Firewall
 ===========
-1. iperf plugin installed
-2. ssh key of user installed (Please see step 2 under client)
+1. iperf plugin installed.
+2. ssh key of user installed (Please see step 2 under client).
 
 ===========
 If there is any question please feel free to send me an [email](mailto:email@aztek.xyz).
